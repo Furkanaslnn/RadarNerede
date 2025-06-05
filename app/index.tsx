@@ -25,9 +25,7 @@ export default function Index() {
       </Link>
 
       <View style={styles.footer}>
-        <Text style={styles.footerText}>
-          Orangehat Digital {"\n"}Furkan Aslan tarafından geliştirilmiştir.
-        </Text>
+        <Text style={styles.footerText}>© Orangehat Digital </Text>
       </View>
     </View>
   );

@@ -143,7 +143,7 @@ export default function RadarList() {
           ))
         )}
 
-        <Text style={styles.footerText}>Orangehat Digital © Furkan Aslan</Text>
+        <Text style={styles.footerText}>© Orangehat Digital </Text>
       </ScrollView>
     </SafeAreaView>
   );
