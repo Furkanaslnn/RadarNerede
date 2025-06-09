@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
+# 📡 Radar Bilgilendirme Uygulaması
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Türkiye genelinde son dönemde aktif hale gelen radar noktalarını listeleyen ve bu radarları harita üzerinde görsel olarak sunan mobil bilgilendirme uygulamasıdır.
 
-## Get started
+Uygulama, kullanıcı dostu arayüzü ve gerçek zamanlı konum bazlı navigasyon desteği ile, sürücülere trafikte daha bilinçli hareket etme imkanı sunar.
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Özellikler
 
-2. Start the app
+- Güncel radar noktalarının listelenmesi (özellikle D100 hattı baz alınmıştır)
+- Harita entegrasyonu ile radar noktalarının konum bazlı gösterimi
+- Detaylı adres bilgileri ve Google Haritalar yönlendirmesi
+- Anlık konum ile etkileşim
+- Basit ve hızlı kullanıcı deneyimi
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🛠️ Kullanılan Teknolojiler
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **React Native**: Mobil uygulama geliştirme
+- **React Native Maps & Google Maps SDK**: Harita ve lokasyon gösterimi
+- **Expo**: Geliştirme ve önizleme kolaylığı
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+---
 
-## Get a fresh project
+## 📸 Ekran Görüntüleri
 
-When you're ready, run:
+### Ana Ekran
 
-```bash
-npm run reset-project
-```
+Uygulamanın giriş ekranı. Harita ve listeye yönlendirme sunar.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+![Ana Ekran](./Resimler/1.png)
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+### Harita Görünümü
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Radarların yoğunluklu olarak bulunduğu bölgeleri harita üzerinde inceleyebilirsiniz.
 
-## Join the community
+![Harita Görünümü](./Resimler/2.png)
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### Radar Listesi
+
+Radar noktalarının detaylı adres ve koordinat bilgileriyle listelenmiş hali.
+
+![Radar Listesi](./Resimler/3.png)
+
+---
