@@ -22,30 +22,8 @@ Uygulama, kullanıcı dostu arayüzü ve gerçek zamanlı konum bazlı navigasyo
 - **React Native Maps & Google Maps SDK**: Harita ve lokasyon gösterimi
 - **Expo**: Geliştirme ve önizleme kolaylığı
 
----
-
 ## 📸 Ekran Görüntüleri
 
-### Ana Ekran
-
-Uygulamanın giriş ekranı. Harita ve listeye yönlendirme sunar.
-
-![Ana Ekran](./Resimler/1.png)
-
----
-
-### Harita Görünümü
-
-Radarların yoğunluklu olarak bulunduğu bölgeleri harita üzerinde inceleyebilirsiniz.
-
-![Harita Görünümü](./Resimler/2.png)
-
----
-
-### Radar Listesi
-
-Radar noktalarının detaylı adres ve koordinat bilgileriyle listelenmiş hali.
-
-![Radar Listesi](./Resimler/3.png)
-
----
+| Ana Ekran | Harita Görünümü | Radar Listesi |
+|:--:|:--:|:--:|
+| ![Ana Ekran](./Resimler/1.png) | ![Harita Görünümü](./Resimler/2.png) | ![Radar Listesi](./Resimler/3.png) |
